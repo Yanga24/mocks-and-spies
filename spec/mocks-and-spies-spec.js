@@ -1,6 +1,8 @@
-let mocks = require("../src/mocks-and-spies");
+//  mocks = require("../src/mocks-and-spies");
 
 describe("Should verify() test", function () {
+});
+
   it("call the function getNumber()", function () {
     var owner = new mocks("0785825279", "approved");
 
@@ -20,4 +22,4 @@ describe("Should verify() test", function () {
 
     expect(owner.getMessage).toHaveBeenCalled();
   });
-});
+  
